@@ -1,8 +1,6 @@
-
-
 const express = require("express");
 
-const cntrl = require("../../controllers/contacts");
+const cntrl = require("../../controllers/index");
 
 const { validateBody, isValid } = require("../../middlewares");
 
